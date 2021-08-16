@@ -1,9 +1,9 @@
 package gerenciamento_de_projetos;
 
 public class Usuario {
-	public String id;
-	public String nome;
-	public boolean administrador;
+	private String id;
+	private String nome;
+	private boolean administrador;
 	
 	public Usuario(String id, String nome, boolean administrador) {
 		this.id = id;

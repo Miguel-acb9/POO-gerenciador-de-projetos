@@ -3,12 +3,12 @@ package gerenciamento_de_projetos;
 import java.util.Date;
 
 public class Projeto {
-	public String id;
-	public String nome;
-	public Date data_de_inicio;
-	public Date data_de_termino;
-	public String responsavel;
-	public String descricao;
+	private String id;
+	private String nome;
+	private Date data_de_inicio;
+	private Date data_de_termino;
+	private String responsavel;
+	private String descricao;
 	
 	public Projeto (String id, String nome, Date data_de_inicio, Date data_de_termino, String responsavel, String descricao) {
 		this.id = id;
