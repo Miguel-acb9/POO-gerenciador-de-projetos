@@ -17,7 +17,6 @@ public class Projeto {
 		this.data_de_termino = data_de_termino;
 		this.responsavel = responsavel;
 		this.descricao = descricao;
-		
 	}
 	
 	public String getId() {
