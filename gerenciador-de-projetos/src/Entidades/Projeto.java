@@ -1,10 +1,11 @@
-package entities;
+package Entidades;
 
+// Importações de Bibliotecas
 import java.util.Date;
 
 public class Projeto {
-
-	private String id;
+    // Atributos
+    private String id;
 	private String nome;
 	private Date data_de_inicio;
 	private Date data_de_termino;
@@ -13,6 +14,7 @@ public class Projeto {
 
 	public Projeto(String id, String nome, Date data_de_inicio, Date data_de_termino, String responsavel,
 			String descricao) {
+        // Construtor
 		this.id = id;
 		this.nome = nome;
 		this.data_de_inicio = data_de_inicio;
@@ -21,6 +23,7 @@ public class Projeto {
 		this.descricao = descricao;
 	}
 
+    // Métodos Getters
 	public String getId() {
 		return this.id;
 	}
@@ -45,6 +48,7 @@ public class Projeto {
 		return this.descricao;
 	}
 
+    // Métodos Setters
 	public void setID(String id) {
 		this.id = id;
 	}
