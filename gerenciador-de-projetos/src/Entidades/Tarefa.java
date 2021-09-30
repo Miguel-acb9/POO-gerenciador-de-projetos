@@ -83,4 +83,24 @@ public class Tarefa
     }
 
     // Métodos
+    public void exibirStatus()
+	{
+		
+	}
+    public void exibirResponsaveis()
+	{
+		
+	}
+    public void exibirPrazo()
+	{
+		
+	}
+    public void editarTarefa()
+	{
+		
+	}
+    public void adicionarTarefa()
+	{
+		
+	}
 }

@@ -116,4 +116,36 @@ public class Projeto
 	}
 
 	// Métodos
+	public void listarParticipantes(String[] participantes)
+	{
+
+	}
+	public void editarDados()
+	{
+
+	}
+	public void exibirStatus()
+	{
+
+	}
+	public void exibirOrcamento()
+	{
+		
+	}
+	public void adicionarParticipantes()
+	{
+		
+	}
+	public void removerParticipantes()
+	{
+		
+	}
+	public void adicionarAdministradores()
+	{
+		
+	}
+	public void removerAdministradores()
+	{
+		
+	}
 }

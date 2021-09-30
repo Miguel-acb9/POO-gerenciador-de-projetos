@@ -80,5 +80,40 @@ public class Usuario {
 	}
 
 	// Métodos
-
+	public void cadastrar()
+	{
+		
+	}
+	public void verificarLogin()
+	{
+		
+	}
+	public void editarCadastro()
+	{
+		
+	}
+	public void editarTarefa()
+	{
+		
+	}
+	public void adicionarTarefa()
+	{
+		
+	}
+	public void adicionarParticipante()
+	{
+		
+	}
+	public void removerParticipante()
+	{
+		
+	}
+	public void adicionarAdministrador()
+	{
+		
+	}
+	public void removerAdministrador()
+	{
+		
+	}
 }
